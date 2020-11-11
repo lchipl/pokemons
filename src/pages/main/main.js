@@ -69,6 +69,7 @@ export const Main = () =>{
     return(
         <div className='main'>
             <header className='header'>
+                <p>ЧиуЧиуЧип/ Введи 150!</p>
                 {pokemons.isLoaded?images():null}
                 <p>number of poke: {searchPok}</p>
                 
